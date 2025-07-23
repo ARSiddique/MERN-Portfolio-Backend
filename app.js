@@ -6,7 +6,7 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import contactRoutes from './routes/contact-route.js';
-import errorHandler from './middleware/errorHandler.js';
+import errorHandler from './middleware/errorhandler.js';
 
 const app = express();
 
